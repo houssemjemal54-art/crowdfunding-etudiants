@@ -39,6 +39,17 @@ php artisan serve
 
 L'application sera disponible sur `http://127.0.0.1:8000`.
 
+## Base de donnees phpMyAdmin
+
+Le projet utilise MySQL avec XAMPP pour etre visible dans phpMyAdmin.
+
+- Nom de la base : `crowdfunding_etudiants`
+- Utilisateur local : `root`
+- Mot de passe local : vide
+- phpMyAdmin : `http://127.0.0.1/phpmyadmin/`
+
+Un export SQL est disponible dans `database/crowdfunding_etudiants.sql`.
+
 ## Workflow GitHub demande
 
 Chaque membre doit avoir des commits et pushs qui correspondent a sa fonctionnalite.
